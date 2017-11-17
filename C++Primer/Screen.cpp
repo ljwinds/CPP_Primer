@@ -1,11 +1,6 @@
+/* Exercise 7.23, 7.27, 7.32, 3.33 */
 #include "Screen.h"
 
-inline Screen Screen::Move(pos row, pos column) {
-	cursor = row * width + column;
-	return *this;
-}
-
-inline Screen Screen::Set(pos row, pos column, char c) {
-	contents[row * width + column] = c;
-	return *this;
+Screen::pos Screen::size() const {
+	return height * width;
 }
