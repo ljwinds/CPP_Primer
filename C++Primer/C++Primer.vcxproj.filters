@@ -33,19 +33,25 @@
     <ClInclude Include="Sales_data.h">
       <Filter>头文件\Chapter7</Filter>
     </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>头文件\Chapter7</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Person.cpp">
       <Filter>源文件\Chapter7</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Screen.cpp">
       <Filter>源文件\Chapter7</Filter>
     </ClCompile>
     <ClCompile Include="Window_mgr.cpp">
+      <Filter>源文件\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>源文件\Chapter7</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
